@@ -42,9 +42,8 @@ public class Cliente {
 		this.apellido = apellido;
 	}
 
-	@Override
-	public String toString() {
-		return "Cliente [rut = "+rut+",nombre=" + nombre + ", apellido=" + apellido + "]";
+	public void mostrar() {
+		System.out.println("Hola mundo");
 	}
 	
 	
